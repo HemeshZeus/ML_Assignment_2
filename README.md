@@ -30,24 +30,24 @@ web application.
 > **TODO:** Replace this with your actual GitHub repository URL before
 > submission.
 >
-> `https://github.com/<your-username>/<your-repo-name>`
+> `https://github.com/HemeshZeus/ML_Assignment_2`
 
 ## d. Models Used
 
 All 5 models were trained on the same 80/20 train-test split of the dataset
 above, with feature scaling (`StandardScaler`) applied uniformly.
 
-| ML Model Name             | Accuracy | AUC    | Precision | Recall | F1     | MCC    |
-|----------------------------|:--------:|:------:|:---------:|:------:|:------:|:------:|
-| Logistic Regression        | 0.9737   | 0.9950 | 0.9722    | 0.9859 | 0.9790 | 0.9439 |
-| Decision Tree               | 0.9298   | 0.9265 | 0.9315    | 0.9577 | 0.9444 | 0.8500 |
-| kNN                          | 0.9561   | 0.9820 | 0.9459    | 0.9859 | 0.9655 | 0.9057 |
-| Naive Bayes                  | 0.9386   | 0.9875 | 0.9464    | 0.9577 | 0.9520 | 0.8686 |
-| Random Forest (Ensemble)     | 0.9649   | 0.9945 | 0.9583    | 0.9859 | 0.9719 | 0.9260 |
+# Machine Learning Model Evaluation Metrics
 
-*(Values above are illustrative placeholders — regenerate them by running
-`train_models.py` and copy the printed / `metrics_summary.csv` output here
-before final submission.)*
+| ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Logistic Regression | 0.9825 | 0.9954 | 0.9861 | 0.9861 | 0.9861 | 0.9623 |
+| Decision Tree | 0.9123 | 0.9157 | 0.9559 | 0.9028 | 0.9286 | 0.8174 |
+| kNN | 0.9561 | 0.9788 | 0.9589 | 0.9722 | 0.9655 | 0.9054 |
+| Naive Bayes | 0.9298 | 0.9868 | 0.9444 | 0.9444 | 0.9444 | 0.8492 |
+| Random Forest (Ensemble) | 0.9561 | 0.9932 | 0.9589 | 0.9722 | 0.9655 | 0.9054 |
+
+
 
 ### Observations
 
@@ -87,4 +87,4 @@ project-folder/
 
 ## Live App
 
-> **TODO:** Add your deployed Streamlit Community Cloud link here.
+> https://mlassignment2-iird2wsxdqqj6eypzblhzg.streamlit.app/
