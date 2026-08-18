@@ -27,9 +27,8 @@ web application.
 
 ## c. GitHub Repository Link
 
-> **TODO:** Replace this with your actual GitHub repository URL before
-> submission.
->
+
+
 > `https://github.com/HemeshZeus/ML_Assignment_2`
 
 ## d. Models Used
